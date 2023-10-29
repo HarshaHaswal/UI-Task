@@ -1,399 +1,601 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="main-body">
-        <!-- NavBar -->
-        <div>
-            <nav class="navbar navbar-light bg-light" style="background-color: #ccd2d8!important">
-                <div style="display: flex;gap: 30px;">
-                    <a class="navbar-brand" href="#">
-                        <img src="/assets/logo-light.svg" alt="" class="navimage">
-                        <!-- class="d-inline-block align-text-top" -->
-
-                    </a>
-                    <span style="margin-top: 1.4vw;display: flex;gap: 20px;">
-
-                        <h4>Listing</h4>
-                        <h4>Pages</h4>
-                        <h4>Accounts</h4>
-                    </span>
-                </div>
-                <div style="display: flex;gap: 30px; margin-right: 1.4vw;">
-                    <span style="display: flex;gap: 15px;">
-
-                        <i class="fa fa-hotel"></i>
-                        <h4>Hotel</h4>
-                        <i class="fa fa-plane"></i>
-                        <h4>Flight</h4>
-                        <i class="fa fa-globe"></i>
-                        <h4>Tour</h4>
-                        <i class="fa fa-car"></i>
-                        <h4>Cab</h4>
-                    </span>
-                </div>
-            </nav>
-        </div>
-
-        <!-- Body -->
-        <!-- part1 -->
-        <div class="container flex1-container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <div>
-
-                        <p class="flex-heading">Find the top</p>
-                        <p class="flex-heading1">Hotels nearby.</p>
-                    </div>
-                    <p class="flex-text">We bring you not only a stay option, but an experience in your budget to enjoy
-                        the luxury.</p>
-                    <div style="display: flex;gap: 1vw; margin-top: 5vw;">
-                        <button type="button" class="dicover-btn btn-lg">Discover Now</button>
-
-                        <img class="avatar-img" src="assets/12.jpg" alt="Avatar">
-                        <p style="margin-top: 1vw;
-                        font-weight: 500;">Watch our story</p>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <img src="assets/mainimage.jpg" class="flex1-img" alt="...">
-                </div>
-                <span style="margin-top: -14vw; font-weight: 500;">Check Availability</span>
-                <div class="overlapdiv">
-                </div>
-            </div>
-        </div>
-        <!-- part2 -->
-        <div class="container flex2-container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <img src="assets\flex2-img.jpg" class="flex2-img" alt="...">
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <p class="flex-heading">The Best Holidays Start Here!</p>
-                    <p class="flex-text">Book your hotel with us and don't forget to grab an awesome hotel deal to save
-                        massive on your stay.</p>
-                    <div class="row row-cols-1 row-cols-md-2 g-2 flex2-content-cards">
-                        <div class="col">
-                            <div class="card cards">
-                                <!-- <i class="fa fa-cutlery" aria-hidden="true" style="font-size: 4vw;color: green;background-color: rgb(82, 99, 82);"></i> -->
-                                <img src="assets/spoon.png" class="card-flex-img" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Quality Food</h5>
-                                    <p class="card-text">Departure defective arranging rapturous did. Conduct denied
-                                        adding
-                                        worthy little.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card cards">
-                                <img src="assets/clock.jpg" class="card-flex-img" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Quick Services</h5>
-                                    <p class="card-text">Supposing so be resolving breakfast am or perfectly.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card cards">
-                                <img src="assets/antilogo.jpg" class="card-flex-img" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">QHigh Security</h5>
-                                    <p class="card-text">Arranging rapturous did believe him all had supported.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card cards">
-                                <img src="assets/blaz.jpg" class="card-flex-img" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">24 Hours Alert</h5>
-                                    <p class="card-text">Rapturous did believe him all had supported.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- part3 -->
-        <div class="card-container">
-            <p class="card-heading">Featured Hotels</p>
-            <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
-                    <div class="card cards">
-                        <img src="assets/hotel1.jpg" class="card-img" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Baga Comfort</h5>
-                            <p class="card-text">$455/starting at </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card cards">
-                        <img src="assets/hotel2.jpg" class="card-img" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">New Apollo Hotel</h5>
-                            <p class="card-text">$385/starting at</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card cards">
-                        <img src="assets/hotel3.jpg" class="card-img" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">New Age Hotel</h5>
-                            <p class="card-text">$458/starting at</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card cards">
-                        <img src="assets/hotel4.jpg" class="card-img" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                Helios Beach Resort</h5>
-                            <p class="card-text">$569/starting at</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- part4 -->
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="flex-container">
-                        <img src="assets/carousal1.jpg" class="flex-img" alt="...">
-                        <div class="content-container">
-                            <p class="flex-heading">The Best Holidays Start Here!</p>
-                            <p class="flex-text">Book your hotel with us and don't forget to grab an awesome hotel deal
-                                to save massive on your stay.</p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="flex-container">
-                        <img src="assets/girl.jpg" class="flex-img" alt="...">
-                        <div class="content-container">
-                            <p class="flex-heading">The Best Holidays Start Here!</p>
-                            <p class="flex-text">Book your hotel with us and don't forget to grab an awesome hotel deal
-                                to save massive on your stay.</p>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only" style="color: black;">Previous</span>
+      <!-- NavBar -->
+      <div>
+        <nav
+          class="navbar navbar-light bg-light"
+          style="background-color: #ccd2d8 !important"
+        >
+          <div style="display: flex; gap: 30px">
+            <a class="navbar-brand" href="#">
+              <img src="/assets/logo-light.svg" alt="" class="navimage" />
+              <!-- class="d-inline-block align-text-top" -->
             </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only" style="color: black;">Next</span>
-            </a>
-        </div>
-        <!-- part5 -->
-        <div class="container flex1-container">
-            <p class="round-card-heading">Explore Nearby</p>
-            <div class="row">
-                <div class="col-sm-2 col-md-2">
-                    <div class="card round-card">
-                        <img src="assets/san.jpg" class="round-card round-card-img" alt="...">
-                        <div class="card round-card-body round-card round-card-body">
-                            <h5 class="card round-card-title">San Francisco</h5>
-                            <p class="card round-card-text">13 min drive</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-2 col-md-2">
-                    <div class="card round-card">
-                        <img src="assets/LA.jpg" class="round-card round-card-img" alt="...">
-                        <div class="card round-card-body round-card round-card-body">
-                            <h5 class="card round-card-title">Los Angeles</h5>
-                            <p class="card round-card-text">25 min drive</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-2">
-                    <div class="card round-card">
-                        <img src="assets/miami.jpg" class="round-card round-card-img" alt="...">
-                        <div class="card round-card-body round-card round-card-body">
-                            <h5 class="card round-card-title">Miami</h5>
-                            <p class="card round-card-text">45 min drive</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-2">
-                    <div class="card round-card">
-                        <img src="assets/sanjosh.jpg" class="round-card round-card-img" alt="...">
-                        <div class="card round-card-body round-card round-card-body">
-                            <h5 class="card round-card-title">Sanjosh</h5>
-                            <p class="card round-card-text">55 min drive</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-2">
-                    <div class="card round-card">
-                        <img src="assets/NY.jpg" class="round-card round-card-img" alt="...">
-                        <div class="card round-card-body round-card round-card-body">
-                            <h5 class="card round-card-title">New York</h5>
-                            <p class="card round-card-text">1-hour drive</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-2">
-                    <div class="card round-card">
-                        <img src="assets/nortjusten.jpg" class="round-card round-card-img" alt="...">
-                        <div class="card round-card-body round-card round-card-body">
-                            <h5 class="card round-card-title">Nort Justen</h5>
-                            <p class="card round-card-text">2-hour drive</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-2">
-                    <div class="card round-card">
-                        <img src="assets/rio.jpg" class="round-card round-card-img" alt="...">
-                        <div class="card round-card-body round-card round-card-body">
-                            <h5 class="card round-card-title">Rio</h5>
-                            <p class="card round-card-text">20 min drive</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-2 col-md-2">
-                    <div class="card round-card">
-                        <img src="assets/lasvegas.jpg" class="round-card round-card-img" alt="...">
-                        <div class="card round-card-body round-card round-card-body">
-                            <h5 class="card round-card-title">Las Vegas</h5>
-                            <p class="card round-card-text">3-hour drive</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-2">
-                    <div class="card round-card">
-                        <img src="assets/texas.jpg" class="round-card round-card-img" alt="...">
-                        <div class="card round-card-body round-card round-card-body">
-                            <h5 class="card round-card-title">Texas</h5>
-                            <p class="card round-card-text">55 min drive</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-2">
-                    <div class="card round-card">
-                        <img src="assets/chicago.jpg" class="round-card round-card-img" alt="...">
-                        <div class="card round-card-body round-card round-card-body">
-                            <h5 class="card round-card-title">Chicago</h5>
-                            <p class="card round-card-text">13 min drive</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-2">
-                    <div class="card round-card">
-                        <img src="assets/NK.jpg" class="round-card round-card-img" alt="...">
-                        <div class="card round-card-body round-card round-card-body">
-                            <h5 class="card round-card-title">New Keagan</h5>
-                            <p class="card round-card-text">35 min drivw</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-2">
-                    <div class="card round-card">
-                        <img src="assets/oslo.jpg" class="round-card round-card-img" alt="...">
-                        <div class="card round-card-body round-card round-card-body">
-                            <h5 class="card round-card-title">Oslo</h5>
-                            <p class="card round-card-text">1 hour 13 min drive</p>
-                        </div>
-                    </div>
-                </div>
+            <span style="margin-top: 1.4vw; display: flex; gap: 20px">
+              <h4>Listing</h4>
+              <h4>Pages</h4>
+              <h4>Accounts</h4>
+            </span>
+          </div>
+          <div style="display: flex; gap: 30px; margin-right: 1.4vw">
+            <span style="display: flex; gap: 15px">
+              <i class="fa fa-hotel"></i>
+              <h4>Hotel</h4>
+              <i class="fa fa-plane"></i>
+              <h4>Flight</h4>
+              <i class="fa fa-globe"></i>
+              <h4>Tour</h4>
+              <i class="fa fa-car"></i>
+              <h4>Cab</h4>
+            </span>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Body -->
+      <!-- part1 -->
+      <div class="container flex1-container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div>
+              <p class="flex-heading">Find the top</p>
+              <p class="flex-heading1">Hotels nearby.</p>
             </div>
+            <p class="flex-text">
+              We bring you not only a stay option, but an experience in your
+              budget to enjoy the luxury.
+            </p>
+            <div style="display: flex; gap: 1vw; margin-top: 5vw">
+              <button type="button" class="dicover-btn btn-lg">
+                Discover Now
+              </button>
+
+              <img class="avatar-img" src="assets/12.jpg" alt="Avatar" />
+              <p style="margin-top: 1vw; font-weight: 500">Watch our story</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <img src="assets/mainimage.jpg" class="flex1-img" alt="..." />
+          </div>
+          <span style="margin-top: -14vw; font-weight: 500; font-size: 22px"
+            >Check Availability</span
+          >
+          <div class="overlapdiv">
+            <div>
+              <i
+                class="fa fa-map-marker"
+                aria-hidden="true"
+                style="font-size: 4vw; width: 3vw"
+              ></i>
+              <input
+                type="text"
+                placeholder="Location"
+                style="background-color: black; height: 4vw; margin-top: 3vw"
+              />
+            </div>
+
+            <div>
+              <i
+                class="fa fa-calendar-o"
+                aria-hidden="true"
+                style="font-size: 3vw; width: 3vw"
+              ></i>
+              <input
+                type="text"
+                placeholder="Check in - out"
+                style="background-color: black; height: 4vw; margin-top: 3vw"
+              />
+            </div>
+
+            <div>
+              <i
+                class="fa fa-user-o"
+                aria-hidden="true"
+                style="font-size: 3vw; width: 3vw"
+              ></i>
+              <input
+                type="text"
+                placeholder="Guests & rooms"
+                style="background-color: black; height: 4vw; margin-top: 3vw"
+              />
+            </div>
+            <div style="display: flex; margin-left: 0vw; justify-content: end">
+              <img
+                src="assets/images.jpg"
+                style="
+                  border-radius: 5vw;
+                  height: 5.5vw;
+                  margin-top: 2vw;
+                  margin-left: -6vw;
+                  margin-right: -4vw;
+                "
+              />
+            </div>
+          </div>
         </div>
+      </div>
+
+      <!-- part2 -->
+      <div class="container flex2-container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <img src="assets\flex2-img.jpg" class="flex2-img" alt="..." />
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <p class="flex-heading">The Best Holidays Start Here!</p>
+            <p class="flex-text">
+              Book your hotel with us and don't forget to grab an awesome hotel
+              deal to save massive on your stay.
+            </p>
+            <div class="row row-cols-1 row-cols-md-2 g-2 flex2-content-cards">
+              <div class="col">
+                <div class="card cards">
+                  <!-- <i class="fa fa-cutlery" aria-hidden="true" style="font-size: 4vw;color: green;background-color: rgb(82, 99, 82);"></i> -->
+                  <img src="assets/spoon.png" class="card-flex-img" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Quality Food</h5>
+                    <p class="card-text">
+                      Departure defective arranging rapturous did. Conduct
+                      denied adding worthy little.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card cards">
+                  <img src="assets/clock.jpg" class="card-flex-img" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Quick Services</h5>
+                    <p class="card-text">
+                      Supposing so be resolving breakfast am or perfectly.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card cards">
+                  <img
+                    src="assets/antilogo.jpg"
+                    class="card-flex-img"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">QHigh Security</h5>
+                    <p class="card-text">
+                      Arranging rapturous did believe him all had supported.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card cards">
+                  <img src="assets/blaz.jpg" class="card-flex-img" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">24 Hours Alert</h5>
+                    <p class="card-text">
+                      Rapturous did believe him all had supported.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- part3 -->
+      <div class="card-container">
+        <p class="card-heading">Featured Hotels</p>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card cards">
+              <img src="assets/hotel1.jpg" class="card-img" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Baga Comfort</h5>
+                <p class="card-text">$455/starting at</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cards">
+              <img src="assets/hotel2.jpg" class="card-img" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">New Apollo Hotel</h5>
+                <p class="card-text">$385/starting at</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cards">
+              <img src="assets/hotel3.jpg" class="card-img" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">New Age Hotel</h5>
+                <p class="card-text">$458/starting at</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cards">
+              <img src="assets/hotel4.jpg" class="card-img" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Helios Beach Resort</h5>
+                <p class="card-text">$569/starting at</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- part4 -->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active col-sm-6 col-md-6">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6 col-md-6">
+                  <img src="assets/carousal1.jpg" class="flex-img" alt="..." />
+                </div>
+                <div class="col-sm-6 col-md-4 content-container">
+                  <p class="flex-heading">The Best Holidays Start Here!</p>
+                  <p class="flex-text">
+                    Book your hotel with us and don't forget to grab an awesome
+                    hotel deal to save massive on your stay.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item col-sm-6 col-md-6">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6 col-md-6">
+                  <img src="assets\girl.jpg" class="flex-img" alt="..." />
+                </div>
+                <div class="col-sm-6 col-md-4 content-container">
+                  <p class="flex-heading">The Best Holidays Start Here!</p>
+                  <p class="flex-text">
+                    Book your hotel with us and don't forget to grab an awesome
+                    hotel deal to save massive on your stay.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon"
+            aria-hidden="true"
+            style="background-color: black"
+          ></span>
+          <span class="sr-only" style="color: black">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon"
+            aria-hidden="true"
+            style="background-color: black"
+          ></span>
+          <span class="sr-only" style="color: black">Next</span>
+        </a>
+      </div>
+
+      <!-- part5 -->
+      <div class="container flex1-container">
+        <p class="round-card-heading">Explore Nearby</p>
+        <div class="row">
+          <div class="col-sm-2 col-md-2">
+            <div class="card round-card">
+              <img
+                src="assets/san.jpg"
+                class="round-card round-card-img"
+                alt="..."
+              />
+              <div class="card round-card-body round-card round-card-body">
+                <h5 class="card round-card-title">San Francisco</h5>
+                <p class="card round-card-text">13 min drive</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2 col-md-2">
+            <div class="card round-card">
+              <img
+                src="assets/LA.jpg"
+                class="round-card round-card-img"
+                alt="..."
+              />
+              <div class="card round-card-body round-card round-card-body">
+                <h5 class="card round-card-title">Los Angeles</h5>
+                <p class="card round-card-text">25 min drive</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <div class="card round-card">
+              <img
+                src="assets/miami.jpg"
+                class="round-card round-card-img"
+                alt="..."
+              />
+              <div class="card round-card-body round-card round-card-body">
+                <h5 class="card round-card-title">Miami</h5>
+                <p class="card round-card-text">45 min drive</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <div class="card round-card">
+              <img
+                src="assets/sanjosh.jpg"
+                class="round-card round-card-img"
+                alt="..."
+              />
+              <div class="card round-card-body round-card round-card-body">
+                <h5 class="card round-card-title">Sanjosh</h5>
+                <p class="card round-card-text">55 min drive</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <div class="card round-card">
+              <img
+                src="assets/NY.jpg"
+                class="round-card round-card-img"
+                alt="..."
+              />
+              <div class="card round-card-body round-card round-card-body">
+                <h5 class="card round-card-title">New York</h5>
+                <p class="card round-card-text">1-hour drive</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <div class="card round-card">
+              <img
+                src="assets/nortjusten.jpg"
+                class="round-card round-card-img"
+                alt="..."
+              />
+              <div class="card round-card-body round-card round-card-body">
+                <h5 class="card round-card-title">Nort Justen</h5>
+                <p class="card round-card-text">2-hour drive</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <div class="card round-card">
+              <img
+                src="assets/rio.jpg"
+                class="round-card round-card-img"
+                alt="..."
+              />
+              <div class="card round-card-body round-card round-card-body">
+                <h5 class="card round-card-title">Rio</h5>
+                <p class="card round-card-text">20 min drive</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2 col-md-2">
+            <div class="card round-card">
+              <img
+                src="assets/lasvegas.jpg"
+                class="round-card round-card-img"
+                alt="..."
+              />
+              <div class="card round-card-body round-card round-card-body">
+                <h5 class="card round-card-title">Las Vegas</h5>
+                <p class="card round-card-text">3-hour drive</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <div class="card round-card">
+              <img
+                src="assets/texas.jpg"
+                class="round-card round-card-img"
+                alt="..."
+              />
+              <div class="card round-card-body round-card round-card-body">
+                <h5 class="card round-card-title">Texas</h5>
+                <p class="card round-card-text">55 min drive</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <div class="card round-card">
+              <img
+                src="assets/chicago.jpg"
+                class="round-card round-card-img"
+                alt="..."
+              />
+              <div class="card round-card-body round-card round-card-body">
+                <h5 class="card round-card-title">Chicago</h5>
+                <p class="card round-card-text">13 min drive</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <div class="card round-card">
+              <img
+                src="assets/NK.jpg"
+                class="round-card round-card-img"
+                alt="..."
+              />
+              <div class="card round-card-body round-card round-card-body">
+                <h5 class="card round-card-title">New Keagan</h5>
+                <p class="card round-card-text">35 min drivw</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <div class="card round-card">
+              <img
+                src="assets/oslo.jpg"
+                class="round-card round-card-img"
+                alt="..."
+              />
+              <div class="card round-card-body round-card round-card-body">
+                <h5 class="card round-card-title">Oslo</h5>
+                <p class="card round-card-text">1 hour 13 min drive</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     <!-- Footer -->
     <div class="footer">
-        <div class="content footer-container">
-            <div class="heading">
-                <h2>booking</h2>
-                <br><br>
-                <p>Departure defective arranging rapturous did believe him all had supported.</p>
-                <p></p>
-            </div>
-            <div class="services">
-                <h4>Services</h4>
-                <p><a href="#">App development</a></p>
-                <p><a href="#">Web development</a></p>
-                <p><a href="#">DevOps</a></p>
-                <p><a href="#">Web designing</a></p>
-            </div>
-            <div class="social-media">
-                <h4>Social</h4>
-                <p>
-                    <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
-                </p>
-                <p>
-                    <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
-                </p>
-                <p>
-                    <a href="#"><i class="fab fa-github"></i> Github</a>
-                </p>
-                <p>
-                    <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
-                </p>
-                <p>
-                    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-                </p>
-            </div>
-            <div class="links">
-                <h4>Quick links</h4>
-                <p><a href="#">Home</a></p>
-                <p><a href="#">About</a></p>
-                <p><a href="#">Blogs</a></p>
-                <p><a href="#">Contact</a></p>
-            </div>
-            <div class="details">
-                <h4 class="address">Address</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur <br />
-                    adipisicing elit. Cupiditate, qui!
-                </p>
-                <h4 class="mobile">Mobile</h4>
-                <p><a href="#">+91-8888888888</a></p>
-                <h4 class="mail">Email</h4>
-                <p><a href="#">harsha@gmail.com</a></p>
-            </div>
+      <div class="content footer-container">
+        <div class="heading">
+          <h2>booking</h2>
+          <!-- <br><br> -->
+          <p style="width: 17vw">
+            Departure defective arranging rapturous did believe him all had
+            supported.
+          </p>
+          <p></p>
         </div>
-        <footer>
-            <hr />
-            © 2023.
-        </footer>
+        <div class="services">
+          <h4>Page</h4>
+          <p><a href="#">About us</a></p>
+          <p><a href="#">Contact us</a></p>
+          <p><a href="#">News and Blog</a></p>
+          <p><a href="#">Meet a Team</a></p>
+        </div>
+        <div class="social-media">
+          <h4>Link</h4>
+          <p>
+            <a href="#"> Sign up</a>
+          </p>
+          <p>
+            <a href="#">Sign in</a>
+          </p>
+          <p>
+            <a href="#">Privacy Policy</a>
+          </p>
+          <p>
+            <a href="#">Terms</a>
+          </p>
+          <p>
+            <a href="#">Cookie</a>
+          </p>
+          <p>
+            <a href="#">Support</a>
+          </p>
+        </div>
+        <div class="links">
+          <h4>Global Site</h4>
+          <p><a href="#">India</a></p>
+          <p><a href="#">California</a></p>
+          <p><a href="#">Indonesia</a></p>
+          <p><a href="#">Canada</a></p>
+          <p><a href="#">Malaysia</a></p>
+        </div>
+        <div class="details">
+          <h4 class="address">Booking</h4>
+          <p><i class="fa fa-hotel"></i><a href="#">Hotel</a></p>
+          <p><i class="fa fa-plane"></i><a href="#">Flight</a></p>
+          <p><i class="fa fa-globe"></i><a href="#">Tour</a></p>
+          <p><i class="fa fa-car"></i><a href="#">Cab</a></p>
+        </div>
+      </div>
+      <div style="padding: 0 12vw">
+        <h4>Top Links</h4>
+        <p>
+          Flights Hotels Tours Cabs About Contact us Blogs Services Detail page
+          Services Policy Testimonials Newsletters Podcasts Protests NewsCyber
+          Education Sports Tech and Auto Opinion Share Market
+        </p>
+      </div>
+      <div
+        style="
+          padding: 4vw 12vw 0vw;
+          display: flex;
+          justify-content: space-between;
+        "
+      >
+        <div>
+          <h4>Payment & Security</h4>
+          <img style="height: 2vw" src="assets/paypal.svg" />
+          <img style="height: 2vw" src="assets/visa.svg" />
+          <img style="height: 2vw" src="assets/mastercard.svg" />
+          <img style="height: 2vw" src="assets/expresscard.svg" />
+        </div>
+        <div>
+          <h4>Follow us on</h4>
+          <img style="height: 2vw" src="assets/paypal.svg" />
+          <img style="height: 2vw" src="assets/visa.svg" />
+          <img style="height: 2vw" src="assets/mastercard.svg" />
+          <img style="height: 2vw" src="assets/expresscard.svg" />
+        </div>
+      </div>
+      <footer>
+        <hr />
+        <div class="copywrightdiv">
+          <div>Copyrights ©2023 Booking. Build by Webestica.</div>
+          <div style="display: flex; gap: 2vw">
+            <p>Privacy policy</p>
+            <p>Terms and conditions</p>
+            <p>Refund policy</p>
+          </div>
+        </div>
+      </footer>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
