@@ -1,20 +1,5 @@
 .main-body {
-  /* margin: 0 64px; */
   padding: 0vw 8vw 0vw 8vw;
-}
-
-@media (width <=700px) {
-  .navbar {
-    display: none !important;
-  }
-
-  .flex1-img {
-    width: -webkit-fill-available;
-  }
-
-  .flex2-img {
-    width: inherit;
-  }
 }
 
 .navimage {
@@ -28,24 +13,12 @@ i {
 }
 /* flex1-container */
 
-.flex1-container {
-  /* display: flex;
-    column-gap:64px ;
-    margin-left: 64px;
-    margin-right: 64px; */
-}
-
 .flex1-img {
-  /* width: -webkit-fill-available; */
   border-radius: 50px;
   height: 48vw;
 }
 
 /* cards css */
-
-/* .card-container {
-    margin: 64px;
-} */
 
 .card-img {
   border-radius: 50px !important;
@@ -96,21 +69,16 @@ i {
 }
 
 .flex2-img {
-  /* width: inherit !important; */
   border-radius: 50px;
   height: 47vw;
 }
 
 .flex-heading {
-  /* margin-top: 48px; */
-  /* text-align: center; */
   font-size: calc(1.425rem + 2.1vw);
   font-weight: 700;
 }
 
 .flex-heading1 {
-  /* margin-bottom: 48px;
-    text-align: center; */
   font-size: calc(1.425rem + 2.1vw);
   font-weight: 700;
 }
@@ -178,11 +146,31 @@ i {
 
 /* carousel */
 
-.flex-container {
-  /* display: flex;
-    column-gap: 48px;
-    margin-top: 64px;
-    margin-bottom: 64px; */
+@media (width <=800px) {
+  .navbar {
+    display: none !important;
+  }
+
+  .flex1-img {
+    width: -webkit-fill-available;
+    height: 100vw !important;
+  }
+
+  .flex2-img {
+    width: inherit;
+    height: 100vw !important;
+  }
+  .overlapdiv{
+    display: none !important;
+  }
+
+  .black-flex {
+    display: none !important;
+  }
+
+  .flex-img {
+    width: -webkit-fill-available;
+  }
 }
 
 .flex-img {
@@ -204,7 +192,6 @@ i {
 .footer {
   background-color: black;
   color: #fefefe;
-  /* position: fixed; */
   width: 100%;
   bottom: 0;
   left: 0;
@@ -212,10 +199,7 @@ i {
 
 .footer .heading {
   color: #fefefe;
-  /* max-width: 1010px; */
-  /* width: 90%; */
   text-transform: uppercase;
-  /* margin: 0 auto; */
   margin-bottom: 3rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
